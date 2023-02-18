@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href=".../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="bg-blue-600 k h-36 hidden lg:block">
+    <div class="flex pt-3 text-white w-full ">
+      <div class="pl-16">
+        <img class=" pt-5 " src="../img/Group 1.svg" alt="">
+      </div>
+      <!--Thẻ tìm kiếm-->
+      <div class=" flex mt-4 w-2/4 pl-44 ">
+        <div>
+          <input type="text" class="w-96 p-1.5 h-10">
+        </div>
+        <div class="bg-cyan-600  lg:w-1/5 text-center h-10 pt-2">
+          <span>
+            <i class=" fa-solid fa-magnifying-glass"></i>
+          </span>
+          <span class="">Tìm kiếm</span>
+        </div>
+      </div>
+      <!--đăng kí đăng nhập-->
+      <div class="flex mt-4 pl-2">
+        <div><img src="../img/Rectangle.png" alt="" class="pl-1 pr-2"></div>
+        <div class="">
+          <p class="p-2">Đăng nhập / Đăng ký</p>
+          <p class="p-2">Tài khoản</p>
+        </div>
+      </div>
+
+      <!--Giỏ hàng-->
+      <div class=" flex pl-10 hidden md:block mt-4 ">
+        <div class="w-full">
+          <img src="../img/Rectangle1.png" alt="">
+        </div>
+        <div>Giỏ hàng</div>
+
+      </div>
+    </div>
+    <div class="flex text-white pb-4 ">
+      <ul class="flex pl-80 ">
+        <li><a href="" class=" block py-2 mr-3 text-xs ">harry potter</a></li>
+        <li><a href="" class=" block py-2 mr-3 text-xs ">sherlock holmes</a></li>
+        <li><a href="" class=" block py-2 mr-3 text-xs">cơ thể tự chữa lành</a></li>
+        <li><a href="" class=" block py-2 mr-3 text-xs">nếu biết trăm năm là hữu hạn</a></li>
+        <li><a href="" class=" block py-2 mr-3 text-xs ">chú thuật hồi chiến vol 3</a></li>
+      </ul>
+      <div class="flex bg-sky-400 ml-40 rounded-2xl w-42 h-8 border justify-between items-center  ">
+        <div class="mr-1.5"><i class="fa-solid fa-house"></i></div>
+        <p class="p-2">Bán hàng cùng tiki</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- input -->
+  <div class="lg:hidden block px-7  h-28">
+    <div class="w-full ">
+      <div class="flex items-center pt-8 justify-center">
+        <i class="mr-2 text-white text-2xl text-slate-400 fa-solid fa-magnifying-glass"></i>
+        <input type="text" class=" h-10 rounded px-2  outline-white " placeholder="Bạn đang tìm kiếm gì">
+      </div>
+    </div>
+
+  </div>
+  <!--CONTANT-->
+  <section id="content">
+    <!-- <div class="container mx-auto flex">
+      <div class="w-1/4 flex-none">
+        <img src="" alt="">
+        <div>
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+      </div>
+      <div class="grow">
+        <p class="p-2">Tác giả:Ca Tây</p>
+        <p class="p-2">Đứng thứ 13 trong: Top 1000 Sách tư duy - Kỹ năng sống bán chạy tháng này</p>
+        <h3>Càng kỉ luật , càng tự do</h3>
+        <div class="flex">
+          <ul class="stars flex">
+            <li class="star">&#10029;</li>
+            <li class="star">&#10029;</li>
+            <li class="star">&#10029;</li>
+            <li class="star">&#10029;</li>
+            <li class="star">&#10029;</li>
+          </ul>
+          <p class="pt-3 pl-2">(Xem 2942 đánh giá)</p>
+          <p class="pt-3 pl-2">Đã bán 1000+</p>
+        </div>
+
+          <img src="../img/icons1.png" alt="">
+      </div>
+    </div> -->
+    <!-- <div class="flex">
+      <p class="p-2">Giao đến Q. Hoàn Kiếm, P. Hàng Trống, Hà Nội
+      <p class="text-sky-500">- Đổi địa chỉ</p>
+      </p>
+      <div>
+        <div>
+          <div class="flex w-42 h-20 bg-slate-300 border-slate-600">
+            <img src="../img/icon3.png" alt="">
+            <p class="p-2">Trước 18:00 hôm nay</p>
+          </div>
+          <p class="p-2">19.000đ</p>
+          <div class="flex">
+            <img src="../img/icons1.png" alt="">
+            <p class="p-2">Freeship 100% chỉ với 34 ASA</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- <div>
+      <p class="p-2">Số lượng</p>
+      <div>
+        <input  value="-" type="" name="" id="" class="w-10 h-8 border text-center">
+        <input  value="" type="" name="" id="" class="w-14 h-8 border text-center">
+        <input  value="+" type="" name="" id="" class="w-10 h-8 border text-center">
+      </div>
+      <div>
+        <input type="text" class="w-64 h-12 bg-red-600 text-center" value="Chọn mua">
+      </div>
+     </div> -->
+    <!-- <div class="grow">
+      <div class="flex">
+         <img src="../img/icon4.png" alt="">
+         <div class="pl-3">
+          <p class="p-2">Tiki Trading</p>
+         <img src="../img/icon5.png" alt="">
+         </div>
+      </div>
+    </div>
+    <div class="flex">
+     <div>
+      <p class="">4.6/5</p>
+      <p class="text-zinc-300">4.7tr+</p>
+     </div>
+     <div class="pl-20">
+      <p class="">408k+</p>
+      <p class="text-zinc-300">Theo dõi</p>
+     </div>
+    </div> -->
+
+    <!-- <div class="flex">
+      <div class=" flex text-center m-2 w-28 h-8 text-sky-500 border-2 border-sky-700">
+        <img src="../img/icon6.png" alt="">
+        <p class="p-2">Xem shop</p>
+      </div>
+      <div class=" flex text-center m-2 w-28 h-8 text-sky-500 border-2 border-sky-700">
+        <i class="fa-solid fa-plus m-1.5"></i>
+        <p class="">Theo dõi</p>
+      </div>
+    </div> -->
+    <!-- <div class="flex p-10">
+      <div>
+        <img src="../img/icon9.png" alt="" class="p-5">
+        <p class="p-2">Hoàn tiền</p>
+        <p class="p-2">111%</p>
+        <p class="p-2">nếu hàng giả</p>
+      </div>
+      <div>
+        <img src="../img/icon7.png" alt="" class="p-5">
+        <p class="p-2">Mở hộp</p>
+        <p class="p-2">kiểm tra</p>
+        <p class="p-2">nhận hàng</p>
+      </div>
+      <div>
+        <img src="../img/icon8.png" alt="" class="p-5">
+        <p class="p-2">Đổi trả trong</p>
+        <p class="p-2">30 ngày</p>
+        <p class="p-2">nếu sp lỗi</p>
+      </div>
+    </div> -->
+    <!-- <div class="flex w-50 h-24 bg-slate-100 border">
+      <div>
+        <p class="p-2">8 nhà bán khác</p>
+        <p class="p-2">Giá từ 75.210 ₫</p>
+      </div>
+      <div class="pl-5 ">
+        <input type="text" class="w-20 h-10 text-center " value="So sánh">
+      </div>
+    </div> -->
+
+
+
+    <div class="flex mt-1">
+      <p class="p-1">Chia sẻ</p>
+      <img class="p-1" src="../img/Frame.png" alt="">
+      <img class="p-1" src="../img/Frame-1.png" alt="">
+      <img class="p-1" src="../img/Frame-2.png" alt="">
+      <img class="p-1" src="../img/Frame-3.png" alt="">
+      <img class="p-1" src="../img/Frame-4.png" alt="">
+
+    </div>
+  </section>
+  
+  <div class="flex grid  grid-cols-6 justify-center " id="sanpham">
+
+  </div>
+
+  <div id="info">
+
+  </div>
+
+
+  <!-- <div class="mt-8 mb-6 md:mx-auto ">
+    <p class="text-lg mb-3">Sản Phẩm Tương Tự</p>
+    <div class="grid lg:grid-cols-6 grid grid-cols-2 flex-cols">
+      <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="absolute top-[162px]" src="../img_as_2/Rectangle-27.png" alt="">
+          <img class="ml-3" src="../img/Rectangle (5).png" alt="">
+          <p class="text-xs mt-6">TƯ DUY NGƯỢC - Nguyễn Anh Dũng</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <div class="flex">
+            <p class="text-base text-red-500 mr-3">67.000 ₫</p>
+            <p class="text-xs h-[16px] my-auto text-red-500 border border-red-500">-32%</p>
+          </div>
+          <img class="" src="../img/Rectangle (2).png" alt="">
+        </div>
+      </a>
+      <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="absolute top-[162px]" src="../img_as_2/Rectangle-27.png" alt="">
+          <img class="ml-3" src="../img/Rectangle (8).png" alt="">
+          <p class="text-xs mt-6">Đời Ngắn Đừng Ngủ Dài (Tái Bản)</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <div class="flex">
+            <p class="text-base text-red-500 mr-3">50.000 ₫</p>
+            <p class="text-xs h-[16px] my-auto text-red-500 border border-red-500">-33%</p>
+          </div>
+        </div>
+      </a>
+
+      <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="ml-3" src="../img/Rectangle (9).png" alt="">
+          <p class="text-xs mt-6">Thiên Nga Đen (Tái Bản 2020)</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <p class="text-base text-red-500 mr-3">194.300 ₫</p>
+          <img class="" src="../img_as_2/Rectangle-21.png" alt="">
+        </div>
+      </a>
+
+      <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="absolute top-[162px]" src="../img_as_2/Rectangle-27.png" alt="">
+          <img class="ml-3" src="../img/Rectangle (10).png " alt="">
+          <p class="text-xs mt-6">Sách: 1 Ngày Bằng 48 Giờ - Sổ tay Quản Lí Thời Gian Hiệu Quả</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <div class="flex">
+            <p class="text-base text-red-500 mr-3">44.000 ₫</p>
+            <p class="text-xs h-[16px] my-auto text-red-500 border border-red-500">-39%</p>
+          </div>
+        </div>
+      </a>
+
+      <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="absolute top-[162px]" src="../img_as_2/Rectangle-27.png" alt="">
+          <img class="ml-3" src="../img/Rectangle (11).png" alt="">
+          <p class="text-xs mt-6">Hãy Khiến Tương Lai Biết Ơn Vì Hiện Tại Bạn Đã Cố Gắng Hết Mình (Tặng
+            Kèm: 01 Bookmark)</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <div class="flex">
+            <p class="text-base text-red-500 mr-3">69.300 ₫</p>
+            <p class="text-xs h-[16px] my-auto text-red-500 border border-red-500">-30%</p>
+          </div>
+        </div>
+      </a> -->
+
+      <!-- <a class="" href="#">
+        <div class="col-span-1 relative h-[298px] hover:scale-90 duration-300 w-[204px] border border-gray-300">
+          <img class="absolute top-[162px]" src="../img_as_2/Rectangle-27.png" alt="">
+          <img class="ml-3" src="../img/Rectangle (13).png" alt="">
+          <p class="text-xs mt-6">Đừng Cố Làm Người Tốt Trong Mắt Tất Cả Mọi Người</p>
+          <div class="flex">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="w-[11px] h-[11px] my-auto" src="../img_as_2/Frame-20.png" alt="">
+            <img class="ml-1 mr-1 mt-1" src="../img_as_2/Rectangle-11.png" alt="">
+            <p class="text-xs mt-1 text-gray-300">Đã bán 54</p>
+          </div>
+          <div class="flex">
+            <p class="text-base text-red-500 mr-3">89.000 ₫</p>
+            <p class="text-xs h-[16px] my-auto text-red-500 border border-red-500">-18%</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div> -->
+
+
+  <div class="mt-10 lg:hidden md:block pb-10">
+    <div class="flex py-2">
+      <img src="../img/icons1.png" alt="" class="m-1">
+      <div class="flex ">
+        <p class="pl-3">Bạn được thưởng </p>
+        <p class="text-sky-600">8,71 ASA ~ 8.860Xu / 100k chỉ tiêu</p>
+      </div>
+    </div>
+    <div class="flex py-2">
+      <img src="../img/icon6.png" alt="" class="m-1">
+      <div class="flex">
+        <p class="font-bold pl-2">Đổi ASA lấy 3 tỷ đòng mã giảm giá/tháng</p>
+        <p>cho đơn từ 0đ , hạn dùng 1 năm</p>
+      </div>
+    </div>
+    <div class="flex py-2">
+      <img src="../img/icons1.png" alt="" class="m-1">
+      <div class="flex">
+        <p class="font-bold pl-3">Điểm thưởng có thể có lời khi đổi ASA <-> Xu</p>
+        <p>ở sàn Tiki Exchange</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pb-5">THÔNG TIN SẢN PHẨM</div>
+  <div class="flex">
+    <div class="bg-slate-200 w-72">
+      <p class="p-2">Công ty phát hành</p>
+      <p class="p-2">Ngày xuất bản</p>
+      <p class="p-2">Kích thước</p>
+      <p class="p-2">Dịch Giả</p>
+      <p class="p-2">Loại bìa</p>
+      <p class="p-2">Số trang</p>
+      <p class="p-2">Nhà xuất bản</p>
+    </div>
+    <div>
+      <p class="p-2">Bloom Books</p>
+      <p class="p-2">2020-09-01 00:00:00</p>
+      <p class="p-2">14.5 x 20 cm</p>
+      <p class="p-2">Tuyết Mai</p>
+      <p class="p-2">Bìa mềm</p>
+      <p class="p-2">288</p>
+      <p class="p-2">Nhà Xuất Bản Thế Giới</p>
+    </div>
+  </div>
+
+  
+
+  <div class="m-4 p-4 hidden lg:block">
+    <p class="p-2 font-semibold">MÔ TẢ SẢN PHẨM</p>
+    <p class="p-2">KỶ LUẬT vốn là ván cờ bạn phải tự đấu với chính mình. Thắng - bạn sẽ có được “bản năng của người mạnh
+      mẽ nhất”, đó là sự tự kiểm soát bản thân. Thua - bạn mãi sống trong cảm giác tạm bợ, nuối tiếc. Càng dễ dàng dung
+      túng cho những thói quen trì hoãn bao nhiêu, cuộc sống của bạn sẽ đi càng nhanh tới sự mất kiểm soát và thiếu quy
+      hoạch bấy nhiêu.</p>
+    <p class="p-2">Hãy kiên trì đặt ra yêu cầu cao với bản thân, từ chối sự mê hoặc của thói tùy tiện đồng thời thiết
+      lập cho mình những thói quen tốt trong hành vi thường ngày. Sự nỗ lực sẽ luôn được đền đáp xứng đáng nếu bạn biết
+      cách đầu tư công sức và thời gian. Bởi một ngày nào đó trong tương lai, những gì bạn làm sẽ phản chiếu đầy đủ trên
+      chính con người và cuộc đời của bạn.</p>
+    <p class="p-2">CÀNG KỶ LUẬT, CÀNG TỰ DO - Mong rằng tại thời điểm kết thúc hành trình với cuốn sách, bạn đã là một
+      phiên bản khác kỷ luật hơn, nhưng tự do hơn.</p>
+    <p class="p-2">Một vài trích dẫn:</p>
+    <p class="p-2">“Bạn cần phải biết rằng tình yêu là hoa thêu trên gấm. Có thì tốt, không có cũng chẳng sao, thực sự
+      không đáng để bạn vì nó mà từ bỏ sự nghiệp, từ bỏ cơ hội thăng tiến thậm chí là từ bỏ cả cuộc đời vinh hoa sau
+      này.”</p>
+    <p class="p-2">“Những người trưởng thành như chúng ta nên nhìn cuộc sống rộng hơn một chút, ghen có thể có, tức giận
+      có thể có. Thế nhưng, có những cảm xúc chỉ nên lướt qua trong lòng, ngày hôm sau ngủ dậy hãy để nó rời đi cùng với
+      đêm đen mới là cách lựa chọn tốt nhất.”</p>
+    <p class="p-2">“Mỗi người đều có kinh nghiệm sống không giống nhau, yêu cầu không giống nhau. Điều giống nhau là
+      chúng ta đều nên tìm mọi cách trau dồi khả năng của bản thân để sống tốt cuộc đời này.”</p>
+    <p class="p-2">Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình
+      thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế
+      nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>
+  </div>
+
+<div>
+  
+</div>
+
+
+  <!--FOOFTER-->
+  <div class="flex  pt-10 justify-around">
+    <div class="grid gap-4  grid-cols-2 lg:grid-cols-5 pl-10">
+      <div>
+        <p class="font-medium pb-5">Hỗ trợ khách hàng</p>
+        <p class="p-1.5 text-gray-400" class="p-2">Hotline: 1900-6035</p>
+        <p class="p-1.5 text-gray-400">(1000 đ/phút, 8-21h kể cả T7, CN)</p>
+        <p class="p-1.5 text-gray-400">Các câu hỏi thường gặp</p>
+        <p class="p-1.5 text-gray-400">Gửi yêu cầu hỗ trợ</p>
+        <p class="p-1.5 text-gray-400">Hướng dẫn đặt hàng</p>
+        <p class="p-1.5 text-gray-400">Phương thức vận chuyển</p>
+        <p class="p-1.5 text-gray-400">Chính sách đổi trả</p>
+        <p class="p-1.5 text-gray-400">Hướng dẫn trả góp</p>
+        <p class="p-1.5 text-gray-400">Chính sách hàng nhập khẩu</p>
+        <p class="p-1.5 text-gray-400">Hỗ trợ khách hàng:</p>
+        <p class="p-1.5 text-gray-400">Báo lỗi bảo mật: security@tiki.vn</p>
+      </div>
+      <div>
+        <p class="font-medium pb-5">Về Tiki</p>
+        <p class="p-1.5 text-gray-400">Giới thiệu Tiki</p>
+        <p class="p-1.5 text-gray-400">Tuyển dụng</p>
+        <p class="p-1.5 text-gray-400">Chính sách bảo mật thanh toán</p>
+        <p class="p-1.5 text-gray-400">Chính sách bảo mật thông tin cá nhân</p>
+        <p class="p-1.5 text-gray-400">Chính sách giải quyết khiếu nại</p>
+        <p class="p-1.5 text-gray-400">Điều khoản sử dụng</p>
+        <p class="p-1.5 text-gray-400">Giới thiệu Tiki Xu</p>
+        <p class="p-1.5 text-gray-400">Tiếp thị liên kết cùng Tiki</p>
+        <p class="p-1.5 text-gray-400">Bán hàng doanh nghiệp</p>
+        <p class="p-1.5 text-gray-400">Điều kiện vận chuyển</p>
+      </div>
+      <div>
+        <p class="font-medium pb-5">Hợp tác và liên kết</p>
+        <p class="p-1.5 text-gray-400">Quy chế hoạt động Sàn GDTMĐT</p>
+        <p class="p-1.5 text-gray-400">Bán hàng cùng Tiki</p>
+        <p class="p-1.5">Chứng nhận bởi</p>
+        <div class="flex">
+          <img src="../img/anh5.png" alt="" class="mr-2">
+          <img src="../img/anh6.png" alt="" class="mr-0.5">
+          <img src="../img/anh7.png" alt="">
+        </div>
+      </div>
+      <div>
+        <p class="font-medium pb-5">Phương thức thanh toán</p>
+        <div class="flex">
+          <img src="../img/1.png" alt="" class="mr-3 pb-2">
+          <img src="../img/2.png" alt="" class="mr-3 pb-2">
+          <img src="../img/3.png" alt="" class="mr-3 pb-2">
+          <img src="../img/4.png" alt="" class="mr-3 pb-2">
+          <img src="../img/5.png" alt="" class="mr-3 pb-2">
+        </div>
+        <div class="flex">
+          <img src="../img/6.png" alt="" class="mr-3 pb-2">
+          <img src="../img/7.png" alt="" class="mr-3 pb-2">
+          <img src="../img/8.png" alt="" class="mr-3 pb-2">
+          <img src="../img/9.png" alt="" class="mr-3 pb-2">
+          <img src="../img/10.png" alt="" class="mr-3 pb-2">
+        </div>
+        <div class="flex">
+          <img src="../img/11.png" alt="" class="mr-3 pb-2">
+          <img src="../img/12.png" alt="" class="mr-3 pb-2">
+        </div>
+        <p class="py-5">Dịch vụ giao hàng</p>
+        <img src="../img/13.png" alt="">
+      </div>
+      <div>
+        <p class="font-medium pb-5">Liên hệ</p>
+        <div class="flex">
+          <img src="../img/14.png" alt="" class="mr-3 pb-2">
+          <img src="../img/15.png" alt="" class="mr-3 pb-2">
+          <img src="../img/16.png" alt="" class="mr-3 pb-2">
+        </div>
+        <p class="font-medium pb-5 pt-8">Tải ứng dụng trên điện thoại</p>
+        <div class="flex">
+          <img src="../img/17.png" alt="" class="mr-2">
+          <div>
+            <img src="../img/18.png" alt="" class="pb-2">
+            <img src="../img/19.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-gray-400 pl-10 pt-16">
+    <p class="p-2">Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12, quận 10, Thành phố Hồ Chí
+      Minh</p>
+    <p class="p-2">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn
+      phòng hoặc
+      trung tâm xử lý đơn hàng</p>
+    <p class="p-2">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp
+      lần đầu
+      ngày 06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022</p>
+    <p class="p-2">© 2022 - Bản quyền của Công ty TNHH Ti Ki</p>
+  </div>
+  </div>
+  <script type="module" src="./detail.js"></script>
+
+
+</body>

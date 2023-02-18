@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\poly-web2022"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\JScript cơ bản\\Bai tap"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\web2053"
+		},
+		{
+			"path": "..\\..\\..\\..\\famework"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ASM2"
+	}
+}
